@@ -257,7 +257,7 @@ All being well, all nine jobs will run and complete. Using `jobs`
 to find the job ID, you can look at the output as before:
 
 ```bash
-Ganga In [X]: jobs(7).peek('stdout', 'more')
+Ganga In [X]: jobs(X).peek('stdout', 'more')
 Hello, Neptune!
 ```
 
@@ -275,7 +275,7 @@ one go:
 Ganga In [X]: my_jobs = jobs.select(name='hello_*')
 
 Ganga In [X]: my_jobs
-Ganga Out [6]: 
+Ganga Out [X]: 
 Registry Slice: jobs.select(minid='None', maxid='None', name="None") (9 objects)
 --------------
     fqid |    status |      name | subjobs |    application |        backend |                             backend.actualCE |                       comment 
